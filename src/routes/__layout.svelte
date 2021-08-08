@@ -1,3 +1,17 @@
+<script context="module">
+    console.log("Prefetching layout component.");
+
+    export async function load() {
+        const data = `Hello from Layout!`;
+
+        return {
+            props: {
+                data,
+            },
+        };
+    }
+</script>
+
 <script>
     export let data;
     console.log("Mounted layout component.");
