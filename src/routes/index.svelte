@@ -2,7 +2,7 @@
     console.log("Prefetching index component.");
 
     export async function load() {
-        const data = `Hello Index!`;
+        const data = `Hello from Index!`;
 
         return {
             props: {
