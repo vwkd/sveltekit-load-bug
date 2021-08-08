@@ -1,17 +1,3 @@
-<script context="module">
-    console.log("Prefetching index component.");
-
-    export async function load() {
-        const data = `Hello from Index!`;
-
-        return {
-            props: {
-                data,
-            },
-        };
-    }
-</script>
-
 <script>
     console.log("Mounted index component.");
 
