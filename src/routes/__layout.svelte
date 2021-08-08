@@ -8,7 +8,8 @@
     <nav>
         <a href="/">Index</a>
         <a href="/about">About</a>
-        <a href="/about/contact">Contact</a>
+        <a href="/about/contact">About/Contact</a>
+        <a href="/incorrect">Incorrect</a>
     </nav>
 </header>
 
